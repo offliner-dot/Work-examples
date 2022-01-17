@@ -1,0 +1,35 @@
+.header {
+    margin: 30px 0 50px;
+    flex: 0 0 auto;
+}
+
+.headerNav {
+    display: flex;
+    justify-content: center;
+}
+
+.navLink {
+    margin: 20px;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid black;
+    background: black;
+    color: white;
+}
+
+.navLink:hover {
+    background: white;
+    color: orange;
+}
+
+@media (max-width: 400px) {
+    .headerNav{
+        flex-direction: column;
+    }
+    .navLink{
+        margin: 5px;
+        text-align: center;
+    }
+}

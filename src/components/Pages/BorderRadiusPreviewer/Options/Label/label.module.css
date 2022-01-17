@@ -1,0 +1,16 @@
+
+
+.label{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.label span{
+    text-align: center;
+    font-weight: bold;
+}
+.label input{
+    margin-top: 10px;
+    width: 100%;
+    display: block;
+}

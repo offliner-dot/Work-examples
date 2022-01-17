@@ -1,0 +1,40 @@
+.wrapper {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.preview {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(45deg, rgb(43, 223, 182), rgb(219, 221, 42));
+}
+
+.text {
+    color: #d21212;
+    font-weight: bold;
+}
+
+.params {
+    color: rgb(6, 113, 255);
+    font-weight: bold;
+}
+
+.info {
+    margin-top: 10px;
+    background: #ccc2c2;
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.copy {
+    justify-self: right;
+}
+
+button {
+    font-size: 18px;
+    padding: 5px 10px;
+    font-weight: 700;
+    margin-top: 15px;
+}

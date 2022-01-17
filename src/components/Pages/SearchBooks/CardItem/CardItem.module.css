@@ -1,0 +1,39 @@
+.wrapper {
+    flex: 0 0 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardItem {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.image {
+    background-size: cover;
+    width: 200px;
+    height: 250px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.titleImg {
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    border-radius: 10px;
+
+}
+.title{
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.image:hover {
+    transform: scale(1.3);
+}

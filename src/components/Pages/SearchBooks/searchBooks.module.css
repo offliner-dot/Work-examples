@@ -1,0 +1,11 @@
+.content{
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.cardList{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}

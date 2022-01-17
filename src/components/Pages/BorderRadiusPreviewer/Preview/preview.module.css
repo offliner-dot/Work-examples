@@ -1,0 +1,29 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    align-self: flex-start;
+}
+
+.preview {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(45deg, rgb(43, 223, 182), rgb(219, 221, 42));
+}
+
+@media (max-width: 800px) {
+    .preview {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 400px) {
+    .preview {
+        width: 75px;
+        height: 75px;
+    }
+}
